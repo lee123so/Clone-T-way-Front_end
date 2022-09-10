@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import step01 from "../../../assert/booking/step01.png";
-import step02 from "../../../assert/booking/step02.png";
-import step03 from "../../../assert/booking/step03.png";
+import step02_2 from "../../../assert/booking/step02_2.png";
+import step03_2 from "../../../assert/booking/step03_2.png";
 
 const BookingTitle3 = () => {
 
@@ -69,7 +69,7 @@ const Step01 = styled.span`
 `;
 
 const Step02 = styled.span`
-  background-image: url(${step02});
+  background-image: url(${step02_2});
   background-repeat: no-repeat;
   height:30px;
 
@@ -84,13 +84,13 @@ const Step02 = styled.span`
     background-repeat: no-repeat;
     background-position: 2px -2px;
     box-sizing: border-box;
-    color: rgb(128, 128, 128);
-    /* color: rgb(210, 44, 38); */
+    /* color: rgb(128, 128, 128); */
+    color: rgb(210, 44, 38);
   }
 `;
 
 const Step03 = styled.span`
-  background-image: url(${step03});
+  background-image: url(${step03_2});
   background-repeat: no-repeat;
   height:30px;
 
@@ -105,7 +105,7 @@ const Step03 = styled.span`
     background-repeat: no-repeat;
     background-position: 2px -2px;
     box-sizing: border-box;
-    color: rgb(128, 128, 128);
-    /* color: rgb(210, 44, 38); */
+    /* color: rgb(128, 128, 128); */
+    color: rgb(210, 44, 38);
   }
 `;
