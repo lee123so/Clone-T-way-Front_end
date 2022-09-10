@@ -39,24 +39,24 @@ const Container = () => {
                     </StTitle>
                     <div>
                         <StJaFlex>
-                            <li><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff01.png" alt="" /></StJaImg>
+                            <StLiBox><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff01.png" alt="" /></StJaImg>
                                 <h3>호텔</h3>
-                            </li>
-                            <li><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff02.png" alt="" /></StJaImg>
+                            </StLiBox>
+                            <StLiBox><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff02.png" alt="" /></StJaImg>
                                 <h3>렌터카</h3>
-                            </li>
-                            <li><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff03.png" alt="" /></StJaImg>
+                            </StLiBox>
+                            <StLiBox><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff03.png" alt="" /></StJaImg>
                                 <h3>쇼핑 편의</h3>
-                            </li>
-                            <li><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff04.png" alt="" /></StJaImg>
+                            </StLiBox>
+                            <StLiBox><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff04.png" alt="" /></StJaImg>
                                 <h3>액티비티</h3>
-                            </li>
-                            <li><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff05.png" alt="" /></StJaImg>
+                            </StLiBox>
+                            <StLiBox><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff05.png" alt="" /></StJaImg>
                                 <h3>금융 여행자보험</h3>
-                            </li>
-                            <li><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff06.png" alt="" /></StJaImg>
+                            </StLiBox>
+                            <StLiBox><StJaImg><img src="https://contents-image.twayair.com/homepage/images/main/ico_main_aff06.png" alt="" /></StJaImg>
                                 <h3>와이파이</h3>
-                            </li>
+                            </StLiBox>
 
                         </StJaFlex>
                     </div>
@@ -188,4 +188,9 @@ padding: 20px;
 const StJaFlex = styled.ul`
     display: flex;
     justify-content: space-between;
+    padding: 30px 0px;
+`
+const StLiBox = styled.li`
+    text-align: center;
+    list-style: none;
 `

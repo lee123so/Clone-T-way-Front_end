@@ -68,7 +68,7 @@ display: block;
   
 `
 const StBoking = styled.div`
-    margin:  0 auto 100px auto;
+    margin:  0 auto 150px auto;
     padding: 60px 30px 30px 30px;
     width: 1200px;
     background: white url(//contents-image.twayair.com/homepage/images/main/bg_main_booking02.png) no-repeat 0 0;
