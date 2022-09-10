@@ -3,8 +3,12 @@ import styled from "styled-components";
 import fly from "../../../assert/booking/02/fly.png";
 import check from "../../../assert/booking/02/check_.png";
 import img from "../../../assert/booking/02/img.png";
+import { useNavigate } from "react-router-dom";
 
 const DetailSearchForm = () => {
+
+  const navigate = useNavigate();
+
   return (
     <StDetailSearchForm>
       <PointContainer>
@@ -37,7 +41,7 @@ const DetailSearchForm = () => {
         </div>
         <List>
           <ui>
-            <li>
+            <li onClick={() => navigate('/passenger')}>
               <SelectInfo>
                 <ServiceSectionBox>
                   <PlanType>
