@@ -5,22 +5,26 @@ import Footer2 from "../components/booking/Footer2.jsx";
 import BookingTitle3 from "../components/booking/03/BookingTitle3.jsx";
 import PassengerInfo from "../components/booking/03/PassengerInfo.jsx";
 import PassengerForm from "../components/booking/03/PassengerForm.jsx";
+import NextStep from "../components/booking/03/NextStep.jsx";
 
 const Passenger = () => {
   return (
-    <StPassenger>
+    <>
       <Header2 />
-      <BookingTitle3 />
-      <PassengerInfo />
-      <PassengerForm />
+      <StPassenger>
+        <BookingTitle3 />
+        <PassengerInfo />
+        <PassengerForm />
+      </StPassenger>
       <Footer2 />
-    </StPassenger>
+      <NextStep/>
+    </>
   );
 };
 
 export default Passenger;
 
 const StPassenger = styled.div`
-  min-width: 1200px;
-  max-width: 1400px;
+  width: 1200px;
+  margin: 0 auto;
 `;

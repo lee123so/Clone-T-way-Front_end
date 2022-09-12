@@ -5,22 +5,26 @@ import Option from "../components/booking/01/Option";
 import SearchForm from "../components/booking/01/SearchForm";
 import Header2 from "../components/booking/Header2";
 import Footer2 from "../components/booking/Footer2";
+import NextStep from "../components/booking/01/NextStep";
 
 const Ticket = () => {
   return (
-    <StTicket>
+    <>
       <Header2 />
-      <BookingTitle1 />
-      <Option />
-      <SearchForm />
+      <StTicket>
+        <BookingTitle1 />
+        <Option />
+        <SearchForm />
+      </StTicket>
       <Footer2 />
-    </StTicket>
+      <NextStep/>
+    </>
   );
 };
 
 export default Ticket;
 
 const StTicket = styled.div`
-  min-width: 1200px;
-  max-width: 1400px;
+  width: 1200px;
+  margin: 0 auto;
 `;

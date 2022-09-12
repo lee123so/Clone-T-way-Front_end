@@ -4,23 +4,27 @@ import Header2 from "../components/booking/Header2";
 import Footer2 from "../components/booking/Footer2";
 import BookingTitle2 from "../components/booking/02/BookingTitle2";
 import DetailSearchForm from "../components/booking/02/DetailSearchForm";
+import NextStep from "../components/booking/02/NextStep";
+import Notice from "../components/booking/03/Notice";
 
 const DetailSearch = () => {
-
   return (
-    <StDetail>
-    <Header2/>
-    <BookingTitle2/>
-    <DetailSearchForm/>
-    <Footer2/>
-    </StDetail>
+    <>
+      <Header2 />
+      <StDetailSearch>
+        <BookingTitle2 />
+        <DetailSearchForm />
+        <Notice />
+      </StDetailSearch>
+      <Footer2 />
+      <NextStep />
+    </>
   );
-
-}
+};
 
 export default DetailSearch;
 
-const StDetail = styled.div`
-  min-width: 1200px;
-  max-width: 1400px;
+const StDetailSearch = styled.div`
+  width: 1200px;
+  margin: 0 auto;
 `;

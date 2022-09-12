@@ -19,13 +19,18 @@ const Header2 = () => {
 export default Header2;
 
 const StHeader2 = styled.div`
-  width: 100%;
-  height: 85px;
+  margin: 0 auto;
+  height: 55px;
   background-image: url(${logoBar});
   background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-position: 100% 0px;
   border-bottom: 1px solid rgb(227, 227, 227);
+
+  & div {
+    width: 1200px;
+    margin: 0 auto;
+  }
   
   & a {
     color: rgb(49, 49, 49);
@@ -33,13 +38,21 @@ const StHeader2 = styled.div`
     cursor: pointer;
     float: left;
   }
-  & h1 {
+  /* & h1 {
     cursor: pointer;
     text-indent: -9999px;
     margin-top: 25px;
-    margin-left: 30px ;
     width: 75px ;
     height: 30px ;
     background: url(${logo}); 
+  } */
+
+  & h1 {
+    margin-top: 14px ;
+    margin-left: 0 ;
+    width: 74px ;
+    height: 30px ;
+    background: url(${logo}) no-repeat 0 0 ;
+    text-indent: -9999px;
   }
 `;

@@ -31,12 +31,14 @@ export default BookingTitle3;
 
 const StBookingTitle = styled.div`
   display: flex;
-  margin: 30px 60px;
   gap: 550px;
   align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 30px;
 
   & h1 {
-    margin-left: 30px;
+    width: 200px;
   }
 `;
 

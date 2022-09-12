@@ -30,13 +30,15 @@ const BookingTitle2 = () => {
 export default BookingTitle2;
 
 const StBookingTitle = styled.div`
+  margin: 0 auto;
+  width: 1200px;
+  padding: 30px;
   display: flex;
-  margin: 30px 60px;
   gap: 550px;
   align-items: center;
 
   & h1 {
-    margin-left: 30px;
+    width: 200px;
   }
 `;
 

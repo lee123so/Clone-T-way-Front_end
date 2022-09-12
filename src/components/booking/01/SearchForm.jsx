@@ -11,7 +11,6 @@ import plus from "../../../assert/booking/01/-.png";
 import minus from "../../../assert/booking/01/+.png";
 
 const SearchForm = () => {
-
   const navigate = useNavigate();
 
   return (
@@ -22,7 +21,7 @@ const SearchForm = () => {
           <div>
             <label>출발지</label>
             <input placeholder="도시/공항" />
-            <span />
+            <a />
           </div>
         </Form1>
 
@@ -31,7 +30,7 @@ const SearchForm = () => {
           <div>
             <label>도착지</label>
             <input placeholder="도시/공항" />
-            <span />
+            <a />
           </div>
         </Form2>
 
@@ -40,7 +39,7 @@ const SearchForm = () => {
           <div>
             <label>탑승일</label>
             <input placeholder="YYYY-MM-DD" />
-            <span />
+            <a />
           </div>
         </Form3>
       </Ui1>
@@ -78,8 +77,7 @@ const SearchForm = () => {
         </Form4>
       </Ui2>
 
-        <button onClick = { () => navigate('/detail') }>예매하기</button>
-
+      {/* <button onClick={() => navigate("/detail")}>예매하기</button> */}
     </StSearchForm>
   );
 };
@@ -87,13 +85,10 @@ const SearchForm = () => {
 export default SearchForm;
 
 const StSearchForm = styled.div`
+  margin: 0 auto;
+  width: 1200px;
   margin-top: 40px;
-  margin: 30px;
   list-style: none;
-
-  & li {
-    list-style: none;
-  }
 
   & label {
     display: block;
@@ -123,6 +118,7 @@ const StSearchForm = styled.div`
     cursor: pointer;
     left: 350px;
   }
+
   & p {
     display: inline-block;
     top: 0px;
@@ -153,14 +149,13 @@ const StSearchForm = styled.div`
 
 const Ui1 = styled.div`
   display: flex;
-  gap: 50px;
+  gap: 25px;
   border-top: 1px solid rgb(204, 204, 204);
   padding-top: 60px;
 
   & div {
     margin-left: 20px;
   }
-
 `;
 
 const Ui2 = styled.div`
@@ -176,12 +171,25 @@ const Form1 = styled.div`
   display: flex;
   gap: 20px;
 
-  & span {
+  & a {
     background: url(${location}) 50% 50% no-repeat;
-    left: 400px;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    transform: translateY(5px);
+    transform: translateX(-20px);
+    color: rgb(49, 49, 49);
+    cursor: pointer;
   }
+
   & p {
     background-image: url(${img1});
+
+    & clicked {
+      
+    }
   }
 `;
 
@@ -190,9 +198,19 @@ const Form2 = styled.div`
   display: flex;
   gap: 20px;
 
-  & span {
+  & a {
     background: url(${location}) 50% 50% no-repeat;
-    left: 830px;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    z-index: 1;
+    transform: translateY(0px);
+    transform: translateX(-20px);
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    cursor: pointer;
   }
 
   & p {
@@ -205,9 +223,19 @@ const Form3 = styled.div`
   display: flex;
   gap: 20px;
 
-  & span {
+  & a {
     background: url(${img4}) 50% 50% no-repeat;
-    left: 1260px;
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    z-index: 1;
+    transform: translateY(0px);
+    transform: translateX(-20px);
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    cursor: pointer;
   }
 
   & p {

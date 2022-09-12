@@ -76,6 +76,192 @@ const DetailSearchForm = () => {
               </SelectInfo>
             </li>
           </ui>
+
+          <ui>
+            <li onClick={() => navigate('/passenger')}>
+              <SelectInfo>
+                <ServiceSectionBox>
+                  <PlanType>
+                    <Btn1>TW9525</Btn1>
+                    <Btn2>B737-800</Btn2>
+                  </PlanType>
+
+                  <FirstService>
+                    <strong>07:55</strong>
+                    <span>SMP</span>
+                  </FirstService>
+
+                  <ServiceExp>
+                    <P1>01h 05m</P1>
+                    <P2>
+                      <span>직항</span>
+                    </P2>
+                  </ServiceExp>
+
+                  <LastService>
+                    <strong>09:00</strong>
+                    <span>PUS</span>
+                  </LastService>
+
+                  <PriceInfo>
+                    <div>이코노미</div>
+                    <span>KRW</span>
+                    <strong>24,000</strong>
+                  </PriceInfo>
+                </ServiceSectionBox>
+
+              </SelectInfo>
+            </li>
+          </ui>
+
+          <ui>
+            <li onClick={() => navigate('/passenger')}>
+              <SelectInfo>
+                <ServiceSectionBox>
+                  <PlanType>
+                    <Btn1>TW9525</Btn1>
+                    <Btn2>B737-800</Btn2>
+                  </PlanType>
+
+                  <FirstService>
+                    <strong>07:55</strong>
+                    <span>SMP</span>
+                  </FirstService>
+
+                  <ServiceExp>
+                    <P1>01h 05m</P1>
+                    <P2>
+                      <span>직항</span>
+                    </P2>
+                  </ServiceExp>
+
+                  <LastService>
+                    <strong>09:00</strong>
+                    <span>PUS</span>
+                  </LastService>
+
+                  <PriceInfo>
+                    <div>이코노미</div>
+                    <span>KRW</span>
+                    <strong>24,000</strong>
+                  </PriceInfo>
+                </ServiceSectionBox>
+
+              </SelectInfo>
+            </li>
+          </ui>
+
+          <ui>
+            <li onClick={() => navigate('/passenger')}>
+              <SelectInfo>
+                <ServiceSectionBox>
+                  <PlanType>
+                    <Btn1>TW9525</Btn1>
+                    <Btn2>B737-800</Btn2>
+                  </PlanType>
+
+                  <FirstService>
+                    <strong>07:55</strong>
+                    <span>SMP</span>
+                  </FirstService>
+
+                  <ServiceExp>
+                    <P1>01h 05m</P1>
+                    <P2>
+                      <span>직항</span>
+                    </P2>
+                  </ServiceExp>
+
+                  <LastService>
+                    <strong>09:00</strong>
+                    <span>PUS</span>
+                  </LastService>
+
+                  <PriceInfo>
+                    <div>이코노미</div>
+                    <span>KRW</span>
+                    <strong>24,000</strong>
+                  </PriceInfo>
+                </ServiceSectionBox>
+
+              </SelectInfo>
+            </li>
+          </ui>
+
+          <ui>
+            <li onClick={() => navigate('/passenger')}>
+              <SelectInfo>
+                <ServiceSectionBox>
+                  <PlanType>
+                    <Btn1>TW9525</Btn1>
+                    <Btn2>B737-800</Btn2>
+                  </PlanType>
+
+                  <FirstService>
+                    <strong>07:55</strong>
+                    <span>SMP</span>
+                  </FirstService>
+
+                  <ServiceExp>
+                    <P1>01h 05m</P1>
+                    <P2>
+                      <span>직항</span>
+                    </P2>
+                  </ServiceExp>
+
+                  <LastService>
+                    <strong>09:00</strong>
+                    <span>PUS</span>
+                  </LastService>
+
+                  <PriceInfo>
+                    <div>이코노미</div>
+                    <span>KRW</span>
+                    <strong>24,000</strong>
+                  </PriceInfo>
+                </ServiceSectionBox>
+
+              </SelectInfo>
+            </li>
+          </ui>
+
+          <ui>
+            <li onClick={() => navigate('/passenger')}>
+              <SelectInfo>
+                <ServiceSectionBox>
+                  <PlanType>
+                    <Btn1>TW9525</Btn1>
+                    <Btn2>B737-800</Btn2>
+                  </PlanType>
+
+                  <FirstService>
+                    <strong>07:55</strong>
+                    <span>SMP</span>
+                  </FirstService>
+
+                  <ServiceExp>
+                    <P1>01h 05m</P1>
+                    <P2>
+                      <span>직항</span>
+                    </P2>
+                  </ServiceExp>
+
+                  <LastService>
+                    <strong>09:00</strong>
+                    <span>PUS</span>
+                  </LastService>
+
+                  <PriceInfo>
+                    <div>이코노미</div>
+                    <span>KRW</span>
+                    <strong>24,000</strong>
+                  </PriceInfo>
+                </ServiceSectionBox>
+
+              </SelectInfo>
+            </li>
+          </ui>
+          
         </List>
       </ListContainer>
     </StDetailSearchForm>
@@ -87,6 +273,9 @@ export default DetailSearchForm;
 const StDetailSearchForm = styled.div`
   margin-left: 70px;
   list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 50px;
 `;
 
 const PointContainer = styled.div`

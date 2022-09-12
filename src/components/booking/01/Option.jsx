@@ -23,7 +23,8 @@ export default Option;
 
 const StOption = styled.div`
   display: flex;
-  margin: 50px 80px;
+  margin: 0 auto;
+    width: 1200px;
   & ui {
     display: inline-block;
     border: 1px solid rgb(204, 204, 204);

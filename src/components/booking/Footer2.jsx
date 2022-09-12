@@ -22,12 +22,15 @@ export default Footer2;
 const StFooter2 = styled.div`
   border-top: 0px;
   background-color: rgb(245, 245, 245);
-  margin-top: 100px;
   padding-left: 50px;
   clear: both;
   display: block;
+  margin: 0 auto;
+  margin-top: 100px;
 
   & div {
+    width: 1200px;
+    margin: 0 auto;
     padding: 30px;
   }
 
@@ -51,14 +54,15 @@ const Span1 = styled.span`
 const Span2 = styled.span`
   color: rgb(102, 102, 102);
   font-size: 20px;
-  margin-left: 12px;
+  margin-left: 15px;
   font-weight: 700;
   display: inline-block;
   vertical-align: middle;
 `;
 
 const Span3 = styled.span`
-  margin-left: 14px;
-  font-size: 14px;
+  margin-left: 20px;
+  font-size: 15px;
   color: rgb(26, 26, 26);
+  vertical-align: middle;
 `;

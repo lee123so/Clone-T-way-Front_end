@@ -15,9 +15,10 @@ const PassengerInfo = () => {
 export default PassengerInfo;
 
 const StPassengerInfo = styled.div`
-  margin-bottom: 20px;
   display: block;
-  margin-left: 70px;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 30px;
 
   & h3 {
     display: inline-block;
