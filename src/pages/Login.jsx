@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../components/main/Header'
+import SubHeader from '../components/layout/SubHeader'
 import Footer from '../components/main/Footer'
 import LoginPage from '../components/login/LoginPage'
 const Login = () => {
   return (
     <>
-    <Header/>
+    <SubHeader/>
     <LoginPage/>
     <Footer/>
     </>

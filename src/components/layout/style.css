@@ -67,6 +67,7 @@
     color: #fff;
     position: relative;
 }
+
 .StNavList:hover.StNavList::after{
  width: 100%;
 }
